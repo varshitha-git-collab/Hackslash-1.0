@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz - [Category Name]</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 flex justify-center items-center h-screen">
-    <div class="bg-white p-8 rounded shadow-md w-full max-w-xl">
-        <h1 class="text-2xl font-bold mb-6 text-center">[Category Name] Quiz</h1>
+<body class="quiz-category-body">
+    <div class="quiz-category-container">
+        <h1>History Quiz</h1>
         <form>
-            <!-- Question 1 -->
-            <div class="mb-6">
-                <p class="text-lg mb-4">Question 1: What is the capital of France?</p>
+            <div class="quiz-category-container-question">
+                <p>Question 1: What is the capital of France?</p>
                 <div>
                     <input type="radio" id="q1a1" name="q1" value="Paris">
                     <label for="q1a1">Paris</label><br>
@@ -21,13 +20,12 @@
                     <input type="radio" id="q1a3" name="q1" value="Rome">
                     <label for="q1a3">Rome</label><br>
                     <input type="radio" id="q1a4" name="q1" value="Berlin">
-                    <label for "q1a4">Berlin</label>
+                    <label for="q1a4">Berlin</label>
                 </div>
             </div>
-            <!-- Add more questions here -->
-            <div class="flex justify-between">
-                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">Previous</button>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Submit</button>
+            <div class="quiz-category-container-buttons">
+                <button type="button">Previous</button>
+                <button type="submit">Submit</button>
             </div>
         </form>
     </div>

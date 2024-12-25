@@ -1,0 +1,88 @@
+/* Do not modify these lines
+************************************************** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/* ************************************************** */
+/* Upto here */
+
+.index-body{
+    width: 100%;
+    height: 100%;
+    background-color: #F7FAFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-content{
+    text-align: center;
+}
+
+.index-content h1{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.index-content p{
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.index-content-div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.index-content-div-1 a:nth-child(1){
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.index-content-div-1 a:nth-child(2){
+    background-color: #10B981;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.index-content-div-1 a:nth-child(3){
+    background-color: #EF4444;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.index-content-div-1 a:nth-child(4){
+    background-color: #F59E0B;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.index-content-div-2{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.index-content-div-2 a{
+    color: #3B82F6;
+    text-decoration: underline;
+}

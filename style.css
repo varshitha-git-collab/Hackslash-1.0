@@ -74,6 +74,27 @@ html, body{
     text-decoration: none;
     border-radius: 1rem;
 }
+.index-content-div-1 a:nth-child(5){
+    background-color: #009688;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.index-content-div-1 a:nth-child(6){
+    background-color: #673AB7;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.index-content-div-1 a:nth-child(7){
+    background-color: #D500F9;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+}
 
 .index-content-div-2{
     margin-top: 3rem;
@@ -204,6 +225,41 @@ html, body{
 
 .categories-container a:hover{
     background-color: #2563EB;
+}
+
+.History{
+    background-image: url('./Images/History.jpg');
+}
+
+.Geography{
+    background-image: url('./Images/Geography.jpg');
+}
+
+.Current_Affairs{
+    background-image: url('./Images/Current_Affairs.jpg');
+}
+
+.Politics{
+    background-image: url('./Images/Politics.jpg');
+}
+
+.Famous_People{
+    background-image: url('./Images/Famous_People.jpg');
+}
+
+.Inventions{
+    background-image: url('./Images/Inventions.jpg');
+}
+
+.Space{
+    background-image: url('./Images/Space.jpg');
+}
+
+.History, .Geography, .Current_Affairs, .Politics, .Famous_People, .Inventions, .Space{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .quiz-category-container{
